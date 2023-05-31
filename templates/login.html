@@ -1,0 +1,31 @@
+
+{% extends 'base.html' %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+<div class="container" >
+    <h3 style="text-align: center" class="mt-5">Welcome to administration System</h3>
+    <div class="card mt-5" style="width: 20rem; margin: 0 auto">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+            <form class="form" role="form" method="POST">
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                <div class="fieldWrapper mb-1" style="display: flex; flex-direction: column">
+                    {{ form.subject.errors }}
+                    <label for="{{ form.username.id_for_label }}">Email:</label>
+                    {{ form.username }}
+                </div>
+                <div class="fieldWrapper mb-3" style="display: flex; flex-direction: column">
+                    {{ form.message.errors }}
+                    <label for="{{ form.password.id_for_label }}">Password:</label>
+                    {{ form.password }}
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
