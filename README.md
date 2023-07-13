@@ -3,6 +3,9 @@
 ## Preview
 ![image](https://github.com/zhihaojiang-byte/Django-Vue-Project-Back-End/assets/110302197/eee1e7bf-ae4a-4c78-92e6-fa619acf0191)
 
+## Link
+http://projectinnovate.de
+
 ## Details
 
 ### Amusement Park Ticket Booking System
