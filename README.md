@@ -8,11 +8,11 @@
 ### Amusement Park Ticket Booking System
 A web-based ticket booking system for an amusement park.
 
-> The Amusement Park Ticket Booking project was developed using Python, JavaScript, and MySQL, showcasing my proficiency in these technologies.
-> Using Vue.js, I created a dynamic and interactive user interface, incorporating smooth transitions, responsive design, and engaging animations.
-> On the back-end, Django, a Python web framework, was utilized to manage the database and handle user authentication. I implemented features such as user registration and login.
-> MySQL was used as the database management system to store and retrieve ticket and customer information securely.
-> Deployed the system on AWS and configured Nginx as a reverse proxy.
+The Amusement Park Ticket Booking project was developed using Python, JavaScript, and MySQL, showcasing my proficiency in these technologies.
+Using Vue.js, I created a dynamic and interactive user interface, incorporating smooth transitions, responsive design, and engaging animations.
+On the back-end, Django, a Python web framework, was utilized to manage the database and handle user authentication. I implemented features such as user registration and login.
+MySQL was used as the database management system to store and retrieve ticket and customer information securely.
+Deployed the system on AWS and configured Nginx as a reverse proxy.
 
 ### TechStack
 
